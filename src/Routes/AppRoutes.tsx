@@ -7,6 +7,7 @@ const AppRoutes: React.FC = () => {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home/>}/>
+                
             </Routes>
         </BrowserRouter>
     )

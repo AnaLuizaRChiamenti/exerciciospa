@@ -15,6 +15,7 @@ const Banner = styled.section<BannerProps>`
     align-items: center;
     width: 100vw;
     color: white;
+    width: 100%;
 `
 
 export default Banner

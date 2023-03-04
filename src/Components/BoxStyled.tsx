@@ -9,7 +9,7 @@ interface BoxStyledProps {
 
 const BoxStyled = styled.div<BoxStyledProps>`
     display: flex;
-    width: ${(props) => props.widthSize ?? '100vw'};
+    width: ${(props) => props.widthSize ?? '100%'};
     height: ${(props) => props.heightSize ?? '40vh'};
     flex-direction: ${(props) => props.rowReverse ?? 'row'};
     align-items: center;
